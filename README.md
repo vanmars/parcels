@@ -1,4 +1,4 @@
-# _Vanessa Stewart_
+# _Parcel Tracker_
 
 _28 September 2020_
 
@@ -43,10 +43,10 @@ adding CSS/Bootstrap to enhance the user experience.
 | CRUD Action | Method | Class or Instance | Description | URL |
 | ------------| ------ | ----------------- | ----------- | --- |
 | Read | .all() | Class | View all parcels | / |
-| Create | .save() | Instance | Create a single instance of a parcel | /
-| Update | .update() | Instance | Update an instance of a parcel |
-| Delete | .delete() | Instance | Delete an instance of a parcel |
-| Read | .find() | Class | Find all instances of parcels |
+| Create | .save() | Instance | Create a single instance of a parcel | /parcels
+| Update | .update() | Instance | Update an instance of a parcel | /parcels/:id/edit |
+| Delete | .delete() | Instance | Delete an instance of a parcel | /parcels/:id/edit |
+| Read | .find() | Class | Find all instances of parcels | /parcels |
 
 ## Setup/Installation Requirements
 
